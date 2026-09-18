@@ -6,6 +6,8 @@ public class Main {
         Uczen uczen1 = new Uczen(7, "Ania");
         System.out.println(uczen);
         System.out.println(uczen1);
+        Wychowawca wychowawca1P = new Wychowawca("Zygmunt", "WF");
+        System.out.println(wychowawca1P);
         }
 
 
