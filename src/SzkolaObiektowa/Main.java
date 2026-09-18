@@ -8,6 +8,8 @@ public class Main {
         System.out.println(uczen1);
         Wychowawca wychowawca1P = new Wychowawca("Zygmunt", "WF");
         System.out.println(wychowawca1P);
+        uczen1.wykonajDyzur();
+        wychowawca1P.wykonajDyzur();
         }
 
 

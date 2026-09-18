@@ -1,6 +1,6 @@
 package SzkolaObiektowa;
 
-public class Uczen extends Osoba{
+public class Uczen extends Osoba implements Dyzurny{
     private static int LiczbaUczniów = 0;
     private int nrUcznia;
 
@@ -17,5 +17,10 @@ public class Uczen extends Osoba{
                 ", imie='" + imie + '\'' +
                 ", wiek='" + getWiek() + '\'' +
                 '}';
+    }
+
+    @Override
+    public void wykonajDyzur() {
+        System.out.println("Podlej kwiatki");
     }
 }
